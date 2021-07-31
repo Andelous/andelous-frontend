@@ -21,7 +21,11 @@
             <v-col cols="12" sm="2" xl="3"></v-col>
         </v-row>
 
-        <h2>Technologies I use</h2>
+        <div class="d-flex justify-start align-center">
+            <v-icon color="teal darken-2"> mdi-cog </v-icon>
+            <span>&nbsp;&nbsp;</span>
+            <h2>Technologies I use</h2>
+        </div>
 
         <v-row></v-row>
     </div>
