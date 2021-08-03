@@ -12,17 +12,33 @@
                             max-height="30"
                             max-width="30"
                             src="./assets/yo_small.jpg"
-                        ></v-img>
+                        >
+                        </v-img>
                     </v-avatar>
-                    <span class="font-weight-light">Angel</span
-                    ><span class="teal--text font-weight-bold">D</span>
+                    <span class="font-weight-light">Angel</span>
+                    <span class="teal--text font-weight-bold">D</span>
                 </router-link>
             </v-app-bar-title>
         </v-app-bar>
 
         <v-main>
             <v-container fluid>
-                <router-view />
+                <v-row>
+                    <v-col cols="0" sm="1" md="2" xl="3" class="pa-0"> </v-col>
+                    <v-col
+                        class="blue-grey lighten-5 px-6"
+                        cols="12"
+                        sm="10"
+                        md="8"
+                        xl="6"
+                    >
+                        <router-view />
+
+                        <br />
+                        <br />
+                    </v-col>
+                    <v-col cols="0" sm="1" md="2" xl="3" class="pa-0"> </v-col>
+                </v-row>
             </v-container>
         </v-main>
 
